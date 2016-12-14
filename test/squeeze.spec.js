@@ -68,6 +68,17 @@ describe('squeeze', function() {
       var actual = squeeze(diff, config);
       assert.deepEqual(actual, [{type: 'exclude', pattern: 'foo'}, {type: 'exclude', pattern: 'hoge'}]);
     });
+
+    it('should return list of items type exclude array', function() {
+      var config = [
+        {other: true, include: 'foo'}
+      ];
+      diff = [
+        'src/modules/foo.js',
+      ];
+      var actual = squeeze(diff, config);
+      assert.deepEqual(actual, [{type: 'include', pattern: 'foo'}]);
+    });
   });
 
   describe('complex pattern', function() {
