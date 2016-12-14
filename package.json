@@ -1,0 +1,14 @@
+{
+  "name": "karma-squeeze",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "author": "y-kurami <yosuke.kurami@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "minimatch": "^3.0.3"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "power-assert": "^1.4.2"
+  }
+}
