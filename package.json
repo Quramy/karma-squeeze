@@ -1,5 +1,6 @@
 {
   "name": "karma-squeeze",
+  "description": "A Rule-Engine framework for karma",
   "version": "0.1.0",
   "main": "lib/index.js",
   "repository": {
