@@ -1,5 +1,7 @@
 # karma-squeeze
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Quramy/karma-squeeze.svg)](https://greenkeeper.io/)
+
 A Rule-Engine framework for [karma](http://karma-runner.github.io/1.0/index.html).
 
 ## Install
